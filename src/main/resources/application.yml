@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://172.17.0.2:3306/testdocker
+    url: jdbc:mysql://mariadbtest:3306/testdocker
     password: root
     username: root
     driver-class-name: org.mariadb.jdbc.Driver
