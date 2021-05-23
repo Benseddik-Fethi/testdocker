@@ -19,4 +19,8 @@ public class UtilisateurController {
     public List<Utilisateur> getaAll(){
     return iUtilisateurDao.findAll();
     }
+    @GetMapping
+    public String hello(){
+        return "hello live reload toto ";
+    }
 }
